@@ -29,10 +29,10 @@ if [ $# -lt 1 -o "$1" == "-h" -o "$1" == "--help" ]; then
 	exec >&2
 	sprtr
 	echo "Usage: $0 [ -h | --help ]"
-	echo "       $0 <address>/shellscript_name.sh -- Enter address HTTP-server : 144.233.0.1 AND shellscript path - e.g bins.sh" 
-	echo "       $0 <address>:<port> -- Specify the HTTP-server port: <address>:8080"
-	echo "       $0 <address> -t tag -- Default tag: 'gafgyt' "
-	echo "       $0 <address> -t tag -- Default tag: 'gafgyt'  -p path"
+	echo "       $0 -u <address>/shellscript_name.sh -- Enter address HTTP-server : 144.233.0.1 AND shellscript path - e.g bins.sh" 
+	echo "       $0 -u <address>:<port> -- Specify the HTTP-server port: <address>:8080"
+	echo "       $0 -u <address> -t tag -- Default tag: 'gafgyt' "
+	echo "       $0 -u <address> -t tag -- Default tag: 'gafgyt'  -p path"
 	sprtr
 	exit 0
 fi
