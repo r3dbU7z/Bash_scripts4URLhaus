@@ -78,4 +78,4 @@ Usage: ./send_hajime.sh <address> [ -h | --help ] -- Specify the HTTP-server add
 ```
 
 # Inspired by
-This toolset uses python a script **urlhaus.py** by @cocaman -- https://github.com/cocaman/urlhaus
+This toolset uses a script **urlhaus.py** by @cocaman -- https://github.com/cocaman/urlhaus
