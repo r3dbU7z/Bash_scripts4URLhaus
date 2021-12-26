@@ -15,7 +15,7 @@ if [ $# -lt 1 -o "$1" == "-h" -o "$1" == "--help" ]; then
 	exec >&2
 	sprtr
 	printf  "Usage: $0 [ -h | --help ]\n"
-	printf  "       $0 <address>:<port> -- Specify the HTTP-server port: <address>:8080\n"
+	printf  "       $0 <address>[:<port>] -- Specify the FTP-server address/port: <address>[:21]\n"
 	sprtr
 	exit 0
 fi
