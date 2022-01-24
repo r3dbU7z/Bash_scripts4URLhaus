@@ -16,7 +16,7 @@ log_path="...urlhaus_logs..." <- EDIT THIS
 ![example](https://i.ibb.co/QbDPT51/carbon2.png)
 ![urlhaus](https://i.ibb.co/2vNzW8C/Screenshot-2021-12-25-URLhaus-Tag-gafgyt.png)
 
-```
+```console
 $ ./get_fls_ftp.sh
 
 ================================================================
