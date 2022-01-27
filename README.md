@@ -75,6 +75,17 @@ Usage: ./send_hajime.sh <address> [ -h | --help ] -- Specify the HTTP-server add
        ./send_hajime.sh <address>/ -n filename -- Specify the name for URLhaus: http://192.168.10.16/ -n Hajime
 
 ================================================================
+
+$ ./get_fls_shellscript_v0.1.sh
+
+================================================================
+Usage: ./get_fls_shellscript_v0.1.sh [ -h | --help ]
+       Download all the samples using the URL-links from the shellscript file
+       ./get_fls_shellscript_v0.1.sh <address>/shellscript_name.sh -- Enter address HTTP-server : 144.233.0.1 AND shellscript path - e.g bins.sh
+       ./get_fls_shellscript_v0.1.sh <address>:<port>-- Specify the HTTP-server port: <address>:8080
+       ./get_fls_shellscript_v0.1.sh <address> -w  -- Set http type for shellscript
+
+================================================================
 ```
 
 # Inspired by
