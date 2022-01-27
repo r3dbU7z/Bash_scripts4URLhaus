@@ -13,7 +13,7 @@ echo $'\n'"================================================================"
 }
 
 #Logs path
-log_path="...urlhaus_logs..." <- EDIT THIS 
+log_path="/cygdrive/e/tmp/urlhaus_logs"
 
 urlhaus_path=./urlhaus.py
 urlhaus=urlhaus.py
@@ -90,6 +90,18 @@ check_hash(){
 		exit 0
 	fi	
 	if [ $sample_hash == "86ac1aa43f8c580dfc2e1077e351ad72" ]; then
+		printf "VT Green!\n"
+		exit 0		
+	fi	
+	if [ $sample_hash == "dd7effbed0add9562414a7c5f0522153" ]; then
+		printf "VT Green!\n"
+		exit 0
+	fi	
+	if [ $sample_hash == "5b64fda2c6d21fe8a2eec38fb5015bdc" ]; then
+		printf "VT Green!\n"
+		exit 0
+	fi	
+	if [ $sample_hash == "0a0f1ef9fc3964643d998e43b5ea9464" ]; then
 		printf "VT Green!\n"
 		exit 0
 	fi
